@@ -99,7 +99,7 @@ api.addHeader('authorization', 'bearer some-token')
 ### removeHeader(key: string): apiInstance
 删除某个请求头
 ```javascript
-api.addHeader('authorization')
+api.removeHeader('authorization')
 ```
 
 ### order
@@ -154,7 +154,7 @@ api
 ```javascript
 api
   .setQueries({ name: 'Bob', age: 20, score: 90 })
-  not.and(
+  .not.and(
     'class.is.1',
     gt('age'), 
     ilike('name'),
