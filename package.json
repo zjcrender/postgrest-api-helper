@@ -1,9 +1,14 @@
 {
   "name": "postgrest-api-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/PGHelper.min.js",
   "author": "render",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zjcrender/postgrest-api-helper.git"
+  },
   "license": "MIT",
+  "keywords": ["postgrest", "postgrest-api", "url", "sql"],
   "scripts": {
     "build": "webpack",
     "prepublish": "npm run build"
